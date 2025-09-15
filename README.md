@@ -189,23 +189,3 @@ flutter test integration_test/
 4. Push edin (`git push origin feature/AmazingFeature`)
 5. Pull Request oluşturun
 
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## 📞 İletişim
-
-**Proje Sahibi:** Mete Serinkaya
-**GitHub:** [MeteSerinkaya](https://github.com/MeteSerinkaya)
-**Email:** [email@example.com]
-
-## 🙏 Teşekkürler
-
-- Flutter ekibine harika framework için
-- Firebase ekibine backend servisleri için
-- CollectAPI'ye Türkiye eczane verileri için
-- Açık kaynak topluluğuna katkıları için
-
----
-
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
