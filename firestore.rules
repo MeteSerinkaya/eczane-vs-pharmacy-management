@@ -1,0 +1,51 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return request.auth != null && 
+             exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    // Admin collection - only admins can read the collection
+    match /admins/{adminId} {
+      allow read: if request.auth != null && request.auth.uid == adminId;
+      allow write: if false; // Admin documents are managed through Firebase Console
+    }
+
+    // Pharmacies collection
+    match /pharmacies/{pharmacyId} {
+      // Anyone can read pharmacy data
+      allow read: if request.auth != null;
+      
+      // Only admins can create, update, or delete pharmacies
+      allow create, update, delete: if isAdmin();
+      
+      // Favorites subcollection - users can manage their own favorites
+      match /favorites/{userId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // User favorites collection
+    match /users/{userId}/favorites/{pharmacyId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Existing rules for other collections
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /notifications/{notificationId} {
+      allow read: if request.auth != null;
+      allow write: if isAdmin();
+    }
+
+    match /announcements/{announcementId} {
+      allow read: if request.auth != null;
+      allow write: if isAdmin();
+    }
+  }
+} 

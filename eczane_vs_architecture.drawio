@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="abc123" version="22.1.16" type="device">
+  <diagram name="Eczane VS System Architecture" id="eczane-architecture">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Title -->
+        <mxCell id="title" value="ECZANE VS - SYSTEM ARCHITECTURE" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1A73E8;"
+                vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Presentation Layer -->
+        <mxCell id="presentation-layer" value="PRESENTATION LAYER" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;fontStyle=1;fontSize=18;fontColor=#1976D2;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="1050" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Presentation Layer Components -->
+        <mxCell id="screens" value="SCREENS&#xa;&#xa;• HomeScreen&#xa;• LoginScreen&#xa;• RegisterScreen&#xa;• PharmacyListScreen&#xa;• ProfileScreen&#xa;• AdminScreen&#xa;• NotificationScreen" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="widgets" value="WIDGETS&#xa;&#xa;• AppDrawer&#xa;• Custom Cards&#xa;• Theme Components&#xa;• Form Elements&#xa;• List Items&#xa;• Navigation" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="themes" value="THEMES&#xa;&#xa;• Light Theme&#xa;• Dark Theme&#xa;• Material Design 3&#xa;• Color Schemes&#xa;• Typography&#xa;• Icons" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="flutter-framework" value="FLUTTER FRAMEWORK&#xa;&#xa;• Material Design&#xa;• State Management&#xa;• Navigation&#xa;• Animations&#xa;• Responsive UI" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="740" y="160" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- Business Layer -->
+        <mxCell id="business-layer" value="BUSINESS LAYER" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#388E3C;fontStyle=1;fontSize=18;fontColor=#388E3C;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="1050" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Business Layer Components -->
+        <mxCell id="providers" value="PROVIDERS&#xa;&#xa;• LocationProvider&#xa;• ThemeProvider&#xa;• State Management&#xa;• User Preferences&#xa;• Cache Management" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="services" value="SERVICES&#xa;&#xa;• AuthService&#xa;• PharmacyService&#xa;• LocationService&#xa;• NotificationService&#xa;• ApiService&#xa;• FirestoreService" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="models" value="MODELS&#xa;&#xa;• Pharmacy Model&#xa;• User Model&#xa;• Notification Model&#xa;• Announcement Model&#xa;• Location Model" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="business-logic" value="BUSINESS LOGIC&#xa;&#xa;• Authentication&#xa;• Data Validation&#xa;• Error Handling&#xa;• Caching Strategy&#xa;• Offline Support" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="740" y="460" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Layer -->
+        <mxCell id="data-layer" value="DATA LAYER" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;fontStyle=1;fontSize=18;fontColor=#F57C00;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="1050" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Layer Components -->
+        <mxCell id="firebase" value="FIREBASE&#xa;&#xa;• Authentication&#xa;• Firestore Database&#xa;• Cloud Storage&#xa;• Cloud Messaging&#xa;• Security Rules&#xa;• Analytics" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="760" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="external-apis" value="EXTERNAL APIs&#xa;&#xa;• CollectAPI&#xa;• Geolocator&#xa;• Geocoding&#xa;• Maps Integration&#xa;• Phone Services" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="300" y="760" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="local-storage" value="LOCAL STORAGE&#xa;&#xa;• SharedPreferences&#xa;• Cache Management&#xa;• Offline Data&#xa;• User Settings&#xa;• Temporary Storage" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="data-sync" value="DATA SYNCHRONIZATION&#xa;&#xa;• Real-time Updates&#xa;• Offline Sync&#xa;• Conflict Resolution&#xa;• Data Validation&#xa;• Backup Strategy" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=12;align=left;verticalAlign=top;"
+                vertex="1" parent="1">
+          <mxGeometry x="740" y="760" width="200" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows between layers -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#666666;curved=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="sourcePoint"/>
+            <mxPoint x="600" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#666666;curved=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="650" as="sourcePoint"/>
+            <mxPoint x="600" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Data Flow Labels -->
+        <mxCell id="data-flow-1" value="State Management" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;"
+                vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="100" height="20" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="data-flow-2" value="Data Access" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;"
+                vertex="1" parent="1">
+          <mxGeometry x="550" y="620" width="100" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- External Services -->
+        <mxCell id="external-services" value="EXTERNAL SERVICES" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;fontStyle=1;fontSize=16;fontColor=#7B1FA2;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="1050" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="collect-api" value="CollectAPI&#xa;(Nöbetçi Eczane&#xa;Verileri)" 
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;fontSize=12;align=center;"
+                vertex="1" parent="1">
+          <mxGeometry x="150" y="1020" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="google-services" value="Google Services&#xa;(Maps, Location)" 
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;fontSize=12;align=center;"
+                vertex="1" parent="1">
+          <mxGeometry x="350" y="1020" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="device-services" value="Device Services&#xa;(Phone, Storage)" 
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;fontSize=12;align=center;"
+                vertex="1" parent="1">
+          <mxGeometry x="550" y="1020" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="notification-services" value="Notification&#xa;Services&#xa;(FCM, Local)" 
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;fontSize=12;align=center;"
+                vertex="1" parent="1">
+          <mxGeometry x="750" y="1020" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows to external services -->
+        <mxCell id="arrow-ext1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7B1FA2;dashed=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="940" as="sourcePoint"/>
+            <mxPoint x="210" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-ext2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7B1FA2;dashed=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="940" as="sourcePoint"/>
+            <mxPoint x="410" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-ext3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7B1FA2;dashed=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="940" as="sourcePoint"/>
+            <mxPoint x="610" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-ext4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7B1FA2;dashed=1;" 
+                edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="940" as="sourcePoint"/>
+            <mxPoint x="810" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="LEGEND" 
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#CCCCCC;fontStyle=1;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="200" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-item1" value="• Solid Arrow: Data Flow" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;"
+                vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-item2" value="• Dashed Arrow: External Service" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;"
+                vertex="1" parent="1">
+          <mxGeometry x="60" y="1160" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-item3" value="• Blue: Presentation Layer" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;"
+                vertex="1" parent="1">
+          <mxGeometry x="60" y="1180" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-item4" value="• Green: Business Layer" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;"
+                vertex="1" parent="1">
+          <mxGeometry x="60" y="1200" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-item5" value="• Orange: Data Layer" 
+                style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;"
+                vertex="1" parent="1">
+          <mxGeometry x="60" y="1220" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

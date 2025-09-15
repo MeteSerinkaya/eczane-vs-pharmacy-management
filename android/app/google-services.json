@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "579274906518",
+    "firebase_url": "https://nobetci-eczane-7c0d4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "nobetci-eczane-7c0d4",
+    "storage_bucket": "nobetci-eczane-7c0d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579274906518:android:9390180e794a0ef8dd9bb7",
+        "android_client_info": {
+          "package_name": "com.example.eczane_vs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLzLwmy6ziepWZlKeWHaUVgbfEM-Xzd9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
